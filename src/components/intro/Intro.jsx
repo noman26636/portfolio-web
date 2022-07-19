@@ -33,8 +33,9 @@ function Intro() {
         <img src={Vector2} alt="Vector2" />
         <img src={Me} alt="Me" />
         <div>
-            {/* <FloatingDiv image={ThumbUp}/> */}
-        </div>
+            <FloatingDiv image={ThumbUp}/>
+            {/* <FloatingDiv image={Crown}/>           */}
+          </div>
       </div>
     </div>
   );
