@@ -1,0 +1,74 @@
+.intro {
+  display: flex;
+  height: 77vh;
+  margin: 0px 50px;
+  margin-top: 6rem;
+}
+.i-left {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex: 1;
+  gap: 2rem;
+}
+.i-name {
+  display: flex;
+  flex-direction: column;
+}
+.i-name > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  color: var(--orange);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.i-name > :last-child {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--gray);
+  margin-top: 10px;
+}
+.i-button{
+    width: 6rem;
+    height: 2rem;
+}
+.i-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+.i-icons>*{
+    transform: scale(0.5);
+}
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+.i-right>:nth-child(2){
+    transform: scale(0.54);
+    left: -3rem;
+    top: -14%;
+}
+.i-right>:nth-child(3){
+    transform: scale(1.0);
+    left: -3%;
+    top: -5%;
+}
+
+

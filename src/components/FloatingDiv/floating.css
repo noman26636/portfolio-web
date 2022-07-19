@@ -1,0 +1,19 @@
+.floatingDiv {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 5px 15px;
+  background-color: white;
+  border: 1px solid whitesmoke;
+  box-shadow: 1px 3px 4px black;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.floatingDiv > img {
+  width: 4rem;
+  height: 4rem;
+}
+.floatingDiv > span {
+  font-weight: 600;
+}
